@@ -1,4 +1,9 @@
 import React from 'react';
+import LightGallery from 'lightgallery/react/Lightgallery.es5';
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+
+import lgZoom from 'lightgallery/plugins/zoom';
 
 function importAll(r) {
 	let images = {};
@@ -14,10 +19,12 @@ function Project2() {
 		<div>
 			<img className="R2" src={images['R2.png']} alt="rectangle2" />
 			<div className="MyComponent">
+        <LightGallery speed={500} plugins={[lgZoom]}>
           <img className="vloyal visibility" src={images['vloyal2.png']} alt="vloyal" />
 					<img className="vloyal visibility" src={images['vloyal3.png']} alt="vloyal" />
 					<img className="vloyal visibility" src={images['vloyal4.png']} alt="vloyal" />
 					<img className="vloyal" src={images['vloyal1.png']} alt="vloyal" />
+        </ LightGallery>
 			</div>
 
 			<div className='vloyal-text'>

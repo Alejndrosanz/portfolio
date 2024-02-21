@@ -1,4 +1,9 @@
 import React from 'react';
+import LightGallery from 'lightgallery/react/Lightgallery.es5';
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+
+import lgZoom from 'lightgallery/plugins/zoom';
 
 function importAll(r) {
 	let images = {};
@@ -14,9 +19,11 @@ function Project5() {
 		<div className="Espresso">
 			<img className="R5" src={images['R5.png']} alt="rectangle5" />
 			<div className="MyComponent">
-          <img className="mart visibility" src={images['P61.jpg']} alt="MART" />
-          <img className="mart visibility" src={images['P62.png']} alt="MART" />
-          <img className="mart" src={images['Mart-mockup.png']} alt="MART" />
+        <LightGallery speed={500} plugins={[lgZoom]}>
+            <img className="mart visibility" src={images['P61.jpg']} alt="MART" />
+            <img className="mart visibility" src={images['P62.png']} alt="MART" />
+            <img className="mart" src={images['Mart-mockup.png']} alt="MART" />
+        </ LightGallery>
 			</div>
 			<div className='mart-text'>
 				<hr className="Line6" />

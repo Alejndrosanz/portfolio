@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/static/js/main.5cfca457.js",
+    "static/js/453.99dcf01f.chunk.js": "/static/js/453.99dcf01f.chunk.js",
+    "static/media/supperclub1.png": "/static/media/supperclub1.25c76f98d7c11edc1222.png",
+    "static/media/supperclub2.png": "/static/media/supperclub2.725e94cf65e65d180a29.png",
+    "static/media/vloyal4.png": "/static/media/vloyal4.987172bb670b6aa314e8.png",
+    "static/media/vloyal2.png": "/static/media/vloyal2.c27a8248d0d8aa8dcce0.png",
+    "static/media/vloyal1.png": "/static/media/vloyal1.c86f6c2f3716b2105813.png",
+    "static/media/vloyal3.png": "/static/media/vloyal3.9d3bada81eed070b0b0b.png",
+    "static/media/mockupanxiety 1.png": "/static/media/mockupanxiety 1.b9cde9b38c87d5363278.png",
+    "static/media/cheddar3.png": "/static/media/cheddar3.5f3500336b069d185aa8.png",
+    "static/media/Symbol.png": "/static/media/Symbol.64cbb197cd96be708bf8.png",
+    "static/media/cheddar1.png": "/static/media/cheddar1.82585b336de76d673b5e.png",
+    "static/media/P3.png": "/static/media/P3.ca7c309c9517d7b234ca.png",
+    "static/media/P6.png": "/static/media/P6.4c1f18f8615ca8b62c85.png",
+    "static/media/P5.png": "/static/media/P5.4a87d0364365d32e7af4.png",
+    "static/media/Mart-mockup.png": "/static/media/Mart-mockup.d4797590d2ffead8d0a9.png",
+    "static/media/P31.png": "/static/media/P31.2df8c0bfec36a05ee544.png",
+    "static/media/Profilepic.png": "/static/media/Profilepic.4512af2711773e617437.png",
+    "static/media/P53.png": "/static/media/P53.b3f38c9add469de88888.png",
+    "static/media/essence.png": "/static/media/essence.9a6e9f8712ce1267b77d.png",
+    "static/media/P61.jpg": "/static/media/P61.93cfedc2670110198528.jpg",
+    "static/media/P51.png": "/static/media/P51.60084c310993224b4a09.png",
+    "static/media/P52.png": "/static/media/P52.35b714cbf2c12e4ece24.png",
+    "static/media/cheddar2.png": "/static/media/cheddar2.fc7cb8e34de810222f2d.png",
+    "static/media/P62.png": "/static/media/P62.147dae332120774f09b2.png",
+    "static/media/logo.svg": "/static/media/logo.4363d1427507061e1160e3f5df5583c1.svg",
+    "static/media/react-spring_web.production.min.cjs": "/static/media/react-spring_web.production.min.5b3c0d125de2d6c73e1d.cjs",
+    "index.html": "/index.html",
+    "main.5cfca457.js.map": "/static/js/main.5cfca457.js.map",
+    "453.99dcf01f.chunk.js.map": "/static/js/453.99dcf01f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5cfca457.js"
+  ]
+}

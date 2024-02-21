@@ -1,5 +1,10 @@
 import React from 'react';
 import Elipse from './assets/elipse2.png';
+import LightGallery from 'lightgallery/react/Lightgallery.es5';
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+
+import lgZoom from 'lightgallery/plugins/zoom';
 
 function importAll(r) {
 	let images = {};
@@ -20,9 +25,11 @@ function Project1() {
       </div>
 				<img className="R1" src={images['R1.png']} alt="rectangle1" />
 				<div className="MyComponent">
+          <LightGallery speed={500} plugins={[lgZoom]}>
           <img className="cheddar visibility" src={images['cheddar3.png']} alt="cheddar" />
             <img className="cheddar visibility" src={images['cheddar2.png']} alt="cheddar" />
 					  <img className="cheddar" src={images['cheddar1.png']} alt="cheddar" />
+            </LightGallery>
 				</div>
 
 			<div className='cheddar-text'>
